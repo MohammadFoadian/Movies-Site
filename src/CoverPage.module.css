@@ -1,0 +1,30 @@
+.Image{ 
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    /* margin-top: -250px; */
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+ 
+.enter { 
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+    display: block;
+    padding:30px;
+    border-radius: 8px;
+    font-size: 30px;
+    text-decoration: none;
+    position: sticky;
+}
+
+.enter:hover { 
+    padding: 50px;
+    transition: 1s all ease-out;
+    font-size: 28px;
+}
+

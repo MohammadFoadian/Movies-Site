@@ -1,0 +1,291 @@
+.container { 
+    background-color: rgba(22, 22, 159, 0.762);
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header { 
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 10px;
+    height: 80px;
+    line-height: 200%;
+}
+
+.submitButton { 
+    display: block;
+    position: absolute;
+    top: 190px;
+    border-radius: 10px;
+    width: 6%;
+    right: 200px;
+
+}
+
+.search{ 
+    margin-top: 20px;
+    width: 50%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+  }
+
+
+.box { 
+    background-color: rgba(0, 0, 0, 0.611);
+    border-radius: 10px;
+    width: 60%;
+    position: sticky;
+    top: 10%;
+    left: 20%;  
+}
+
+.value { 
+    font-size: 19px;
+    margin-left: 200px;
+}
+
+
+.box ul li {
+    display: block;
+    padding: 30px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.box ul .highest li { 
+    border-bottom: none;
+}
+
+.box ul li p { 
+    display: inline;
+}
+
+.resulotion {  
+    display: inline-block;
+}
+
+.resulotion span{ 
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+
+button { 
+    position: absolute;
+    right: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(50, 153, 50);
+    color: white;
+    border: 1px solid green;
+    
+}
+
+button:hover{  
+    cursor: pointer;
+    background-color: green;
+}
+
+.back {
+    color: white;
+    display: block;
+    background-color: white;
+    text-align: center;
+    color: navy;
+    padding: 10px 50px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.back:hover{ 
+    background-color: lightgray;
+}
+
+@media (max-width : 1000px){  
+    .highest button { 
+        margin-right: 350px;
+        position: relative;
+        left: 350px;
+        margin-left: -2px;
+    }
+
+    .high button { 
+        margin-right: 350px;
+        position: relative;
+        left: 340px;
+        margin-left: -5px;
+    }
+    
+    .low button { 
+        margin-right: 350px;
+        position: relative;
+        left: 340px;
+        margin-left: -10px;
+    }
+    .lowest button { 
+        margin-right: 350px;
+        position: relative;
+        left: 340px;
+        margin-right: 150px;
+    }
+
+    button { 
+        display: block;
+    }
+
+    .value  { 
+       display: inline;
+       position: relative;
+       left: 100px;
+       /* background-color: red; */
+    }
+
+    .resulotion span { 
+        display: none;
+    }
+}
+
+
+@media (max-width : 900px) { 
+
+    .box ul li { 
+        width: 90%;
+    }
+
+    .value { 
+        margin-left: 30px;
+    }
+
+    .lowest button { 
+        position: relative;
+        left: 125px;
+    }
+
+    .low button { 
+        position: relative;
+        left: 140px;
+    }
+
+    .high button { 
+        position: relative;
+        left: 140px;
+    }
+
+    .highest button { 
+        position: relative;
+        left: 140px;
+    }
+}
+
+
+
+@media (max-width : 550px) { 
+
+    .container { 
+        position: sticky;
+    }
+
+    .resulotion span { 
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        position: relative;
+        top: -16px;
+        left: -40px;
+    }
+
+    .resulotion p { 
+        display: block;
+        text-align: center;
+        font-size: 10px;
+    }
+
+
+    .lowest button { 
+        margin-top: 20px;
+        margin-left: -120px;
+    }
+
+    .low button { 
+        margin-top: 20px;
+        margin-left: -135px;
+    }
+
+    .highest button { 
+        margin-top: 20px;
+        margin-left: -140px;
+    }
+    
+    .high button { 
+        margin-top: 20px;
+        margin-left: -140px;
+    }
+
+    .value  { 
+        margin-left: -80px;
+    }
+
+    .box ul li { 
+        width: 100%;
+        border-bottom: 1px solid white;
+        position: relative;
+        left: 20px;
+    }
+
+    .submitButton { 
+        display: none;
+    }
+    .search{  
+        display: block;
+        text-align: center;
+        width: 50% !important;
+        margin-left: 100px !important;
+    }
+
+}
+
+@media (max-width : 1345px) { 
+    .search {
+        width: 30%;
+        float: left;
+        margin-left: 100px;
+    }
+
+    .submitButton { 
+        width: 14%;
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width : 456px) { 
+    .submitButton { 
+        width: 20%;
+        position: absolute;
+        top: 300px;
+        right: 200px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width : 430px) { 
+    .submitButton {
+        width: 20%;
+        position: absolute;
+        top: 300px;
+        right: 160px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+
+/* Responsive Download page */
